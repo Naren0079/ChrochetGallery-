@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CrochetGallery</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>CrochetGallery</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Shop</a></li>
+                <li><a href="cart.html">Cart</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="intro">
+        <h2>Welcome to CrochetGallery</h2>
+        <p>Your one-stop shop for handmade crochet creations.</p>
+        <a href="products.html" class="btn">Shop Now</a>
+    </section>
+
+    <section class="featured-products">
+        <h2>Featured Products</h2>
+        <div class="product-grid">
+            <div class="product">
+                <img src="assets/flower.jpg" alt="Crochet Flower">
+                <h3>Crochet Flowers</h3>
+                <p>Beautiful handcrafted crochet flowers. Perfect for gifts and decoration.</p>
+                <a href="products.html" class="btn">Shop Now</a>
+            </div>
+
+            <div class="product">
+                <img src="assets/bouquet.jpg" alt="Crochet Bouquet">
+                <h3>Crochet Bouquets</h3>
+                <p>Handmade crochet bouquets for special occasions.</p>
+                <a href="products.html" class="btn">Shop Now</a>
+            </div>
+
+            <div class="product">
+                <img src="assets/toy.jpg" alt="Crochet Toy">
+                <h3>Crochet Toys</h3>
+                <p>Adorable crochet toys for kids and collectors.</p>
+                <a href="products.html" class="btn">Shop Now</a>
+            </div>
+
+            <div class="product">
+                <img src="assets/custom.jpg" alt="Custom Crochet">
+                <h3>Custom Crochet</h3>
+                <p>Get a personalized crochet item made just for you!</p>
+                <a href="products.html" class="btn">Shop Now</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>Payments accepted via GPay: <strong>muruganvaranaren@okhdfcbank</strong></p>
+        <p>Follow us for updates:</p>
+        <div class="socials">
+            <a href="https://www.instagram.com/_naren_drn" target="_blank">Instagram</a> | 
+            <a href="#">WhatsApp</a> | 
+            <a href="#">Facebook</a>
+        </div>
+    </footer>
+
+</body>
+</html>
